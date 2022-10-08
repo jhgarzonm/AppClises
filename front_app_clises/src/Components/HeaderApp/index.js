@@ -2,6 +2,7 @@ import React from "react";
 import "./HeaderAppStyle.css";
 
 function HeaderApp() {
+
   return (
     <React.Fragment>
       <header className="Header">
@@ -18,6 +19,7 @@ function HeaderApp() {
       </header>
     </React.Fragment>
   );
+
 }
 
 export { HeaderApp };
