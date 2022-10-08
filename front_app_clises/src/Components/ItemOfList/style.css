@@ -1,0 +1,41 @@
+.Título {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.Descripción {
+    width: 20rem;
+    display: flex;
+    justify-content:right;
+    margin-left: 110px;
+}
+
+.checkbox {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    border-radius: 50%;
+    /*border: solid 1px;*/
+    margin-left: 2rem;
+}
+
+.input1 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    border: none;
+    margin-left: 2rem;
+}
+
+.Fecha {
+    width: 6rem;
+    border: solid 1px;
+    border-radius: 20rem;
+    display: inline-block;
+    margin: 0.5rem 2rem 1rem;
+    background-color: rgb(49, 126, 128);
+    font-weight: bold;
+    color: black;
+    box-shadow: 2px 4px 10px rgb(48, 45, 43);
+}
