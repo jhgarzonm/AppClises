@@ -2,14 +2,16 @@ import React from "react";
 import "./style.css";
 import { ItemOfList } from "../ItemOfList";
 
+let taskBox = ["Primera", "Segunda", "Tercera", "Cuarta", "Quinta"];
 function CheckList() {
+  
   return (
     <React.Fragment>
       <ul className="list-container">
-        <ItemOfList task="Primera tarea" />
-        <ItemOfList task="Segunda tarea" />
-        <ItemOfList task="Tercera tarea" />
-        <ItemOfList task="Cuarta tarea" />
+       {
+        taskBox.map((task) => <ItemOfList task={task + " tarea"}/>) 
+       }
+       
       </ul>
     </React.Fragment>
   );
