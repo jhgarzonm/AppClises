@@ -1,15 +1,15 @@
-import React from "react"
-import { HeaderApp } from "../../Components/HeaderApp"
+import React from "react";
+import { HeaderApp } from "../../Components/HeaderApp";
+import { CheckList } from "../../Components/CheckList";
 
 function OrdersList() {
-return(
+  return (
     <>
-    <HeaderApp></HeaderApp>
-    <h1>Órdenes Pendientes</h1>
-    <p>lorem 
-    </p>
+      <HeaderApp />
+      <h1>Órdenes Pendientes</h1>
+      <CheckList />
     </>
-    )
+  );
 }
 
-export {OrdersList}
+export { OrdersList };
